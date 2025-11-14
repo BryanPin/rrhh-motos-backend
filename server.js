@@ -37,8 +37,8 @@ app.use('/api/dashboard', dashboardRoutes);
 // Ruta de prueba
 app.get('/', (req, res) => {
   res.json({
-    message: 'API Sistema RRHH - Repuestos de Motos',
-    version: '1.0.0',
+    message: 'API Sistema RRHH - Repuestos de Motos (Desarrollado por Jamileth Vera y Bryan Pin)',
+    version: '1.1.0',
     endpoints: {
       auth: '/api/auth',
       employees: '/api/employees',
